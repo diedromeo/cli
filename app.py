@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # This is the secret flag, stored on the server.
 # We will simulate a file containing the flag.
-FLAG_FILE_CONTENT = "flag{c0mm4nd_1nj3ct10n_w0rk5}"
+FLAG_FILE_CONTENT = "ctf7{c0mm4nd_1nj3ct10n_w0rk5}"
 
 # The main page with the ping form
 @app.route('/')
